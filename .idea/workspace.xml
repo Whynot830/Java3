@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4067f851-dda4-4e3a-aafc-820991bcb527" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace-whynot-2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace-whynot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW1/PW1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW2/PW2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW2/src/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW3/PW3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW3/src/SafeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW3/src/SafeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW4/PW4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW4/src/CustomExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW4/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW5/PW5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW5/src/Singleton1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW5/src/Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW5/src/Singleton3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/PW6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/AbstractFactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/AbstractFactory/CpuFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/Builder/CpuBuildDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/Builder/CpuBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/Builder/PersonalComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/Builder/iBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/FactoryMethod/CPUGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/FactoryMethod/CentralProcessingUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/FactoryMethod/Snapdragon8Gen2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/FactoryMethod/Snapdragon8Gen2Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/FactoryMethod/TensorG2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/FactoryMethod/TensorG2Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/Prototype/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/Prototype/Intel13900K.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW6/src/Prototype/Ryzen7950X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/PW7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Decorator/BasicPSU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Decorator/OLPPSU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Decorator/OTPPSU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Decorator/OVPPSU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Decorator/PSUDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Decorator/PowerSupplyUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Facade/BootDisk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Facade/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Facade/MBR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Facade/OperatingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Facade/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Facade/POST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW7/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW8/PW8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW8/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW8/src/Mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW8/src/Mediator/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW8/src/Mediator/PowerSupplyUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW8/src/Mediator/Switcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW8/src/Snapshot/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW8/src/Snapshot/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW8/src/Snapshot/PCMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW9/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW9/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW9/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PW9/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pracs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex1/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex1/src/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex1/yandex1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex11/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yandex11/yandex11.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LXhPVnq8IwZEtD464YbB2rzevQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/whynot/OneDrive/Study/Java/Pracs/PW9&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aminf\OneDrive\Study\Java\Pracs\yandex1\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="yandex11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="PW7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="PW8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4067f851-dda4-4e3a-aafc-820991bcb527" name="Changes" comment="" />
+      <created>1676023314036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676023314036</updated>
+      <workItem from="1676023315134" duration="4438000" />
+      <workItem from="1676233303684" duration="776000" />
+      <workItem from="1676290782189" duration="680000" />
+      <workItem from="1676292479258" duration="977000" />
+      <workItem from="1676299061318" duration="4712000" />
+      <workItem from="1676553526012" duration="531000" />
+      <workItem from="1676555597623" duration="5936000" />
+      <workItem from="1676584276380" duration="6321000" />
+      <workItem from="1676627182552" duration="4765000" />
+      <workItem from="1676758065392" duration="214000" />
+      <workItem from="1676758354141" duration="13000" />
+      <workItem from="1676982473136" duration="5885000" />
+      <workItem from="1677272995096" duration="215000" />
+      <workItem from="1677273236781" duration="463000" />
+      <workItem from="1677338520339" duration="3918000" />
+      <workItem from="1677523215265" duration="142000" />
+      <workItem from="1677664153653" duration="4665000" />
+      <workItem from="1677752027825" duration="4374000" />
+      <workItem from="1677769453648" duration="37000" />
+      <workItem from="1677769617391" duration="1217000" />
+      <workItem from="1677802400923" duration="2811000" />
+      <workItem from="1678138960890" duration="2068000" />
+      <workItem from="1678181548824" duration="1161000" />
+      <workItem from="1678195981653" duration="3834000" />
+      <workItem from="1678319405009" duration="611000" />
+      <workItem from="1678375062535" duration="3551000" />
+      <workItem from="1678639249599" duration="1067000" />
+      <workItem from="1678640484155" duration="3902000" />
+      <workItem from="1678980171748" duration="196000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

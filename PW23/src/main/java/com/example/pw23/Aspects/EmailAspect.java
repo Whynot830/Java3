@@ -1,0 +1,27 @@
+package com.example.pw23.Aspects;
+
+import com.example.pw23.Services.EmailService;
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+
+@org.aspectj.lang.annotation.Aspect
+@Component
+public class EmailAspect {
+    private EmailService emailService;
+
+    public EmailAspect(EmailService emailService) {
+        this.emailService = emailService;
+    }
+
+    @Pointcut("execution(* com.example.pw23.Services.*.createEntity(..)) || execution(* com.example.pw23.Services.*.updateEntity(..))")
+    public void creationAndUpdateMethods() {}
+
+    @AfterReturning(value = "creationAndUpdateMethods()")
+    public void sendEmail(JoinPoint joinPoint) {
+        Object object = joinPoint.getArgs()[0];
+        String methodName = joinPoint.getSignature().getName();
+        emailService.sendMail(methodName, object.toString());
+    }
+}

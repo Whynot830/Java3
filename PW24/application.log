@@ -1,0 +1,66 @@
+485  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 8.0.0.Final
+532  [main] INFO  com.example.pw24.Pw24Application – Starting Pw24Application using Java 17.0.6 with PID 20476 (C:\Users\aminf\OneDrive\Study\Java\Pracs\PW24\build\classes\java\main started by aminf in C:\Users\aminf\OneDrive\Study\Java\Pracs\PW24)
+533  [main] INFO  com.example.pw24.Pw24Application – No active profile set, falling back to 1 default profile: "default"
+1298 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1354 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+1850 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1857 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1857 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1857 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.7]
+1918 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1918 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1351 ms
+2030 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2032 [main] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+2047 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger – 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2070 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter – 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+360  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 8.0.0.Final
+391  [main] INFO  com.example.pw24.Pw24Application – Starting Pw24Application using Java 17.0.6 with PID 1032 (C:\Users\aminf\OneDrive\Study\Java\Pracs\PW24\build\classes\java\main started by aminf in C:\Users\aminf\OneDrive\Study\Java\Pracs\PW24)
+392  [main] INFO  com.example.pw24.Pw24Application – No active profile set, falling back to 1 default profile: "default"
+1009 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1059 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+1456 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1463 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1463 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1463 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.7]
+1516 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1516 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1098 ms
+1653 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1769 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1152900
+1770 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1835 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1879 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+2153 [main] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2800 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2806 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3126 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3431 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+3488 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3be2ef56, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a8149f6, org.springframework.security.web.context.SecurityContextHolderFilter@5d3f583d, org.springframework.security.web.header.HeaderWriterFilter@3ed2a30c, org.springframework.security.web.authentication.logout.LogoutFilter@52dc71b2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@60cbba57, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1ea78c72, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@672549f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22cca101, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1722ede1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4791d904, org.springframework.security.web.access.ExceptionTranslationFilter@76685ab0, org.springframework.security.web.access.intercept.AuthorizationFilter@2f59cb6f]
+3744 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+3759 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+3767 [main] INFO  com.example.pw24.Pw24Application – Started Pw24Application in 3.591 seconds (process running for 4.05)
+4004 [RMI TCP Connection(2)-192.168.0.134] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+4005 [RMI TCP Connection(2)-192.168.0.134] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+4005 [RMI TCP Connection(2)-192.168.0.134] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 0 ms
+9244 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+9245 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+9248 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

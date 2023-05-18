@@ -1,0 +1,2 @@
+PostOffice(id=1, officeName=Office1, cityName=St. Petersburg)
+PostOffice(id=2, officeName=Office2, cityName=Moscow)

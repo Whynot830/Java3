@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PW1/PW1.iml" filepath="$PROJECT_DIR$/PW1/PW1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PW2/PW2.iml" filepath="$PROJECT_DIR$/PW2/PW2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PW3/PW3.iml" filepath="$PROJECT_DIR$/PW3/PW3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PW4/PW4.iml" filepath="$PROJECT_DIR$/PW4/PW4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PW5/PW5.iml" filepath="$PROJECT_DIR$/PW5/PW5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PW6/PW6.iml" filepath="$PROJECT_DIR$/PW6/PW6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PW7/PW7.iml" filepath="$PROJECT_DIR$/PW7/PW7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PW8/PW8.iml" filepath="$PROJECT_DIR$/PW8/PW8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pracs.iml" filepath="$PROJECT_DIR$/Pracs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yandex1/yandex1.iml" filepath="$PROJECT_DIR$/yandex1/yandex1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yandex11/yandex11.iml" filepath="$PROJECT_DIR$/yandex11/yandex11.iml" />
+    </modules>
+  </component>
+</project>
